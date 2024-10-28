@@ -57,7 +57,7 @@ nav.navIzquierdo > a{
     padding-left: 2vw;
 }
 
-i.bi{
+a > i.bi{
     font-size: 4rem;
     color: black;
 }
@@ -141,6 +141,7 @@ a > p:hover{
     border-radius: 20%;
     font-family: 'Courier New', Courier, monospace;
     border: black solid 0.5vw;
+    margin-bottom: 3rem;
 }
 
 .contenedorTextoConoceme>h3{
@@ -156,7 +157,34 @@ a > p:hover{
     text-wrap:1px;
     font-weight: 550;
     line-height: 1.5;
- 
 }
+.tituloProyectoCarrusel{
+    background-color: white;
+    color: black;
+    width: 70%;
+    height: 7vh;
+    border-radius: 30px;
+    padding-top: 1.3vh;
+}
+
+.botonVerProyecto{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 0.5rem;
+    font-size: 2vh;
+}
+
+.iconosTecnologias{
+    width: 6%;
+}
+
+.contenedorProyectos{
+    margin-bottom: 3rem;
+}
+/* .imgcarousel{
+    width: 1000px;
+    height: 600px;
+} */
 
 
