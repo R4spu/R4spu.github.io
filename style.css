@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+.columnaIzquierda{
+    position: relative;
+    height: 100vh;
+}
+
+.columnaDerecha{
+    position: relative;
+    height: 100vh;
+}
+.contenedorPrincipal{
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+}
+.columnaCentral{    
+    position: relative;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.imagenFoto{
+    width: 20vw;
+    height: 50vh;
+    border-radius: 20%;
+    border: white solid 0.5vw;
+    box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.5);
+    object-fit: cover;
+}
+.presentacion{
+    width: 40vw;
+    height: 50vh;
+    padding-top: 10vh;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+nav.navIzquierdo{
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem;
+    height: 100vh;
+}
+nav.navIzquierdo > a{
+    padding-left: 2vw;
+}
+
+i.bi{
+    font-size: 4rem;
+    color: black;
+}
+
+section.sectionArribaDerecha{
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    height: 50vh;
+}
+section.sectionAbajoDerecha{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem;
+    height: 50vh;
+
+}
+nav.navDerecho{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a > p {
+    font-size: 2rem;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    padding-right: 2vw;
+    
+}
+a > p:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.iconoIzquiedo{
+    position: relative;
+    bottom: 2.3rem;
+}
+.tituloConoceme{
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.contenedorTitulo{
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    border-bottom: 3px solid black;
+    margin-bottom: 2rem;
+}
+
+.contenedorConoceme{
+    display:grid;    
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1rem;
+    height: 100vh;
+    width: 80%;
+    justify-content: center;
+}
+
+.contenedorTextoConoceme{
+    background-color: red;
+    height: 100%;
+}
+
+
