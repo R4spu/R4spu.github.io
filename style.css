@@ -63,7 +63,7 @@ i.bi{
 }
 
 section.sectionArribaDerecha{
-    position: sticky;
+    position: relative;
     top: 0;
     display: flex;
     flex-direction: column;
@@ -71,6 +71,10 @@ section.sectionArribaDerecha{
     padding: 1rem;
     height: 50vh;
 }
+section.sectionArribaDerecha>a{
+    position: fixed;
+}
+
 section.sectionAbajoDerecha{
     position: relative;
     bottom: 0;
@@ -80,7 +84,6 @@ section.sectionAbajoDerecha{
     align-items: center;
     padding: 1rem;
     height: 50vh;
-
 }
 nav.navDerecho{
     position: fixed;
@@ -129,14 +132,31 @@ a > p:hover{
     display:grid;    
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 1rem;
-    height: 100vh;
     width: 80%;
     justify-content: center;
 }
 
 .contenedorTextoConoceme{
-    background-color: red;
-    height: 100%;
+  
+    border-radius: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    border: black solid 0.5vw;
+}
+
+.contenedorTextoConoceme>h3{
+    font-weight: 600;
+    text-align: center;
+    padding-top: 2rem;
+ 
+}
+
+.contenedorTextoConoceme>h5{
+    padding: 2.5rem;
+    text-align: justify;
+    text-wrap:1px;
+    font-weight: 550;
+    line-height: 1.5;
+ 
 }
 
 

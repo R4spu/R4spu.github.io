@@ -13,5 +13,5 @@ let maquinaEscribir = (text= "", tiempo=200, etiqueta="")=>{
     }, tiempo);
     }
 
-    maquinaEscribir("Hola, soy Rafael Arteaga, desarrollador Junior, me gusta afrontar retos y resolver problemas.", 60, textoEfecto);
+    maquinaEscribir("Hola, soy Rafael Arteaga, desarrollador Junior, me gusta afrontar retos y resolver problemas.", 50, textoEfecto);
         
