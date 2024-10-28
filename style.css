@@ -165,6 +165,8 @@ a > p:hover{
     height: 7vh;
     border-radius: 30px;
     padding-top: 1.3vh;
+    text-align: center;
+    border: black solid 2px;
 }
 
 .botonVerProyecto{
@@ -181,6 +183,10 @@ a > p:hover{
 
 .contenedorProyectos{
     margin-bottom: 3rem;
+}
+
+.contenedorExperiencia{
+    width: 100%;
 }
 /* .imgcarousel{
     width: 1000px;
